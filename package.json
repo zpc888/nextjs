@@ -1,15 +1,23 @@
 {
-  "name": "nextjs",
+  "name": "next-persistent-layout-patterns",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "debug": "NODE_OPTIONS='--inspect' next dev",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "10.x",
-    "react": "17.x",
-    "react-dom": "17.x"
+    "next": "10.2.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-dropzone": "^11.3.2",
+    "react-image-crop": "^8.6.9"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.13",
+    "tailwindcss": "^2.1.2"
   }
 }
